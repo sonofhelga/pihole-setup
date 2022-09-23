@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt install curl -y
-sudo curl -sSL https://install.pi-hole.net | bash
+sudo curl -sSL https://install.pi-hole.net | sudo bash
 
 clear
 echo 'what would you like your pihole password to be?'
