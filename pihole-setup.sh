@@ -19,3 +19,4 @@ sudo apt install unbound -y
 sudo mv pi-hole.conf /etc/unbound/unbound.conf.d/pi-hole.conf
 
 sudo service unbound restart
+sudo systemctl enable unbound
